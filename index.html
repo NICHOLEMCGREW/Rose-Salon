@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f4e8681ba1.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Rose Salon</title>
+</head>
+<body>
+
+    <!-- header  -->
+    <header id="header" class="header">
+        <a href="#" class="logo"><i class="fa-solid fa-scissors"></i>Rose Salon</a>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <!-- <i class="fa-solid fa-x" id="close-icon"></i> -->
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:0;">Home</a>
+            <a href="#about" style="--i:1;">About</a>
+            <a href="#services" style="--i:2;">Services</a>
+            <a href="#pricing" style="--i:3;">Pricing</a>
+            <a href="contact.html" style="--i:4;">Contact</a>
+        </nav>
+
+        
+    </header>
+
+
+     <!-- home  -->
+     <section class="home" id="home">
+         <div class="container">
+            <h3><span id="home-title"></span></h3>
+        </div>
+        <div>            
+            <a href="#" class="scroll-to-down"><i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img"><img src="imgs/salon.jpg" alt=""></div>
+        <div class="about-container">
+            <h2 class="title">Welcome to <br> Rose Salon</h2>
+            <p>At Rose Salon, we pride ourselves on providing a wide range of luxurious services to enhance your beauty and style. Our dedicated team of skilled professionals is committed to delivering exceptional experiences tailored to your unique needs. From precision haircuts and stunning styling to vibrant color and soothing skin treatments, we offer a comprehensive suite of services designed to elevate your natural beauty. Pamper yourself with our expert services, including brows and lashes, makeup and beauty, and specialized packages for your special occasions. Step into the world of Rose Salon and indulge in the artistry of personalized beauty.</p>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+<section class="services" id="services">
+    <h2>Rose Services</h2>
+    <div class="services-container">
+        <!-- Service 1: Haircuts & Styling -->
+        <div class="service-item">
+            <a href="/services.html#cut-style" class="cut-style">
+                <img src="imgs/salonServices/cut-style.jpg" alt="Haircuts & Styling">
+                <div class="service-title">Haircuts & Styling</div>
+            </a>
+        </div>
+
+        <!-- Service 2: Color & Highlights -->
+        <div class="service-item">
+            <a href="/services.html#color-highlights" class="color-highlights">
+                <img src="imgs/salonServices/color-highlight.jpg" alt="Color & Highlights">
+                <div class="service-title">Color & Highlights</div>
+            </a>
+        </div>
+
+        <!-- Service 3: Brows & Lashes -->
+        <div class="service-item">
+            <a href="/services.html#brows-lashes" class="brows-lashes">
+                <img src="imgs/salonServices/brows-lashes.jpg" alt="Brows & Lashes">
+                <div class="service-title">Brows & Lashes</div>
+            </a>
+        </div>
+
+        <!-- Service 4: Face & Skin -->
+        <div class="service-item">
+            <a href="/services.html#face-skin" class="face-skin">
+                <img src="imgs/salonServices/face-skin.jpg" alt="Face & Skin">
+                <div class="service-title">Face & Skin</div>
+            </a>
+        </div>
+
+        <!-- Service 5: Makeup & Beauty -->
+        <div class="service-item">
+            <a href="/services.html#makeup-beauty" class="makeup-beauty">
+                <img src="imgs/salonServices/makeup-beauty.jpeg" alt="Makeup & Beauty">
+                <div class="service-title">Makeup & Beauty</div>
+            </a>
+        </div>
+
+        <!-- Service 6: Special Occasion -->
+        <div class="service-item">
+            <a href="/services.html#special-occasion" class="special-occasion">
+                <img src="imgs/salonServices/special-occasion.jpg" alt="Special Occasion">
+                <div class="service-title">Special Occasion</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing" id="pricing">
+    <h2>Rose Pricing</h2>
+    <div class="pricing-container">
+        <a href="/services.html#cut-style" class="cut-style">
+        <div class="pricing-item hair">
+            <h3>Haircuts & Styling</h3>
+            <ul>
+                <li>Women's Haircut: $60</li>
+                <li>Men's Haircut: $37</li>
+                <li>Kids Cut (12 and under): $8</li>
+                <li>Blowout/Style: $45</li>
+            </ul>
+        </div>
+    </a>
+    <a href="/services.html#color-highlight" class="color-highlight">
+        <div class="pricing-item color-highlight">
+            <h3>Color & Highlights</h3>
+            <ul>
+                <li>Single-Process Color: $80</li>
+                <li>Full Highlights: $125</li>
+                <li>Balayage/Ombre: $160</li>
+            </ul>
+        </div>
+    </a>
+
+    <a href="/services.html#brows-lashes" class="brows-lashes">
+        <div class="pricing-item brows-lashes">
+            <h3>Brows & Lashes</h3>
+            <ul>
+                <li>Brow Threading: $30</li>
+                <li>Eyelash Extensions: $150</li>
+                <li>Eyebrow Waxing: $22</li>
+            </ul>
+        </div>
+    </a>
+
+    <a href="/services.html#face-skin" class="face-skin">
+        <div class="pricing-item face-skin">
+            <h3>Face & Skin</h3>
+            <ul>
+                <li>Facials: $50</li>
+                <li>Microdermabrasion: $100</li>
+                <li>Chemical Peels: $110</li>
+            </ul>
+        </div>
+    </a>
+
+    <a href="/services.html#makeup-beauty" class="makeup-beauty">
+        <div class="pricing-item makeup-beauty">
+            <h3>Makeup & Beauty</h3>
+            <ul>
+                <li>Makeup Application: $60</li>
+                <li>Bridal Makeup: $90</li>
+                <li>Eyelash Extensions: $150</li>
+            </ul>
+        </div>
+    </a>
+
+    <a href="/services.html#special-occasion" class="special-occasion">
+        <div class="pricing-item special-occasion">
+            <h3>Special Occasion Styling</h3>
+            <ul>
+                <li>Updo/Formal Styling: $75</li>
+                <li>Bridal Hairstyling: $112</li>
+                <li>Prom/Homecoming Styling: $60</li>
+            </ul>
+        </div>
+    </a>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+<footer>
+    <h2>Subscribe for 10% Off!</h2>
+    <div class="subscribe">
+        <form action="submit">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourfacebookpage" id="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.messenger.com/t/yourmessengerpage" id="messenger" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+            <a href="https://www.twitter.com/yourtwitterpage" id="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yourinstagrampage" id="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <hr>
+    <div class="main">
+        
+        <div class="links">
+            <h5>Contact Us</h5>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i> <a href="tel:+1234567890">Call: (123) 456-7890</a></li>
+                <li><i class="fa-solid fa-comment-dots"></i> <a href="sms:+9876543210">Text: (987) 654-3210</a></li>
+                <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@Rosesalon.com">Email: info@Rosesalon.com</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h5>Find Us</h5>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/j9qoh5QzQ8ZMk6HW6" target="_blank">Get Directions</a></li>
+                <li>1234 Salon Street</li>
+                <li>Asheville, NC 28801</li>
+                <li><i class="fa-solid fa-wheelchair-move"></i> Wheelchair Accessible</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h5><i class="fa-regular fa-clock"></i> Salon Hours</h5>
+            <ul>
+                <li><a href="#">Monday - Thursday: 9:00 a.m. - 7:00 p.m.</a></li>
+                <li><a href="#">Friday: Appointment Only</a></li>
+                <li><a href="#">Saturday: 10:00 a.m. - 3:00 p.m.</a></li>
+                <li><a href="#">Sunday: Appointment Only</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+   <div class="copyright">
+    <p>&copy; 2023 Rose Salon. All rights reserved | Site designed and maintained by <a href="https://nicholemcgrew.netlify.app">Nichole McGrew. </a></p>
+   </div>
+    
+</footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>
