@@ -22,3 +22,21 @@ var typed = new Typed('#home-title', {
   });
   
 
+// scroll to down 
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the link element
+    const scrollDownLink = document.querySelector('.scroll-to-down');
+
+    // Add click event listener to the link
+    scrollDownLink.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      // Get the target section you want to scroll to (replace 'your-section-id' with the actual ID of the target section)
+      const targetSection = document.getElementById('your-section-id');
+
+      // Scroll smoothly to the target section
+      targetSection.scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
